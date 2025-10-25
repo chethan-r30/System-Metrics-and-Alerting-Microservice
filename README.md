@@ -50,8 +50,10 @@ UI and visualization libraries:
 
 npm install axios recharts
 
-Tailwind CSS
+Tailwind CSS:
+
 npm install -D tailwindcss postcss autoprefixer
+
 npx tailwindcss init -p
 
 Icons
