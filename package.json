@@ -1,0 +1,25 @@
+{
+  "name": "codexray-observability",
+  "version": "1.0.0",
+  "description": "Observability & Security Microservice - Full Stack Application",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "backend": "cd backend && nodemon server.js",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"bgBlue.bold,bgGreen.bold\" -p \"[{name}]\" \"npm run backend\" \"npm run frontend\"",
+    "start": "npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "observability",
+    "monitoring",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
