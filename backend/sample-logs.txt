@@ -1,0 +1,20 @@
+[2025-10-24T10:00:00.000Z] INFO: Application started successfully
+[2025-10-24T10:00:15.234Z] INFO: Database connection established
+[2025-10-24T10:01:22.456Z] WARN: High memory usage detected: 78%
+[2025-10-24T10:02:10.789Z] ERROR: Failed to connect to external API - Connection timeout
+[2025-10-24T10:03:45.123Z] INFO: User authentication successful
+[2025-10-24T10:04:12.567Z] ERROR: Database query failed - Invalid syntax
+[2025-10-24T10:05:33.890Z] INFO: Metric collection started
+[2025-10-24T10:06:44.234Z] WARN: CPU usage approaching threshold: 82%
+[2025-10-24T10:07:55.678Z] ERROR: Failed to connect to external API - Connection timeout
+[2025-10-24T10:08:21.345Z] INFO: Alert generated for CPU usage
+[2025-10-24T10:09:12.901Z] ERROR: File not found: /path/to/missing/file
+[2025-10-24T10:10:45.234Z] DEBUG: Processing background task
+[2025-10-24T10:11:33.567Z] WARN: Session expiring soon for user 12345
+[2025-10-24T10:12:22.890Z] ERROR: Failed to connect to external API - Connection timeout
+[2025-10-24T10:13:11.123Z] INFO: Scheduled job completed successfully
+[2025-10-24T10:14:56.456Z] ERROR: Database query failed - Invalid syntax
+[2025-10-24T10:15:44.789Z] WARN: Disk space running low: 15% remaining
+[2025-10-24T10:16:33.012Z] INFO: Cache cleared successfully
+[2025-10-24T10:17:22.345Z] ERROR: Authentication failed - Invalid credentials
+[2025-10-24T10:18:11.678Z] DEBUG: Request processed in 234ms
