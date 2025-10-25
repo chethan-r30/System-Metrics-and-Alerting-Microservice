@@ -56,8 +56,8 @@ npm install -D tailwindcss postcss autoprefixer
 
 npx tailwindcss init -p
 
-Icons
+Icons:
 npm install lucide-react
 
-Development dependencies
+Development dependencies:
 npm install --save-dev nodemon
