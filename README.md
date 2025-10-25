@@ -1,4 +1,5 @@
-# CodeXray - Observability & Security Microservice
+# System-Metrics-and-Alerting-Microservice
+
 
 ## 🚀 Installation & Setup
 
@@ -19,10 +20,12 @@ Navigate to the backend directory and install dependencies:
 
 cd backend
 
-Core dependencies
+Core dependencies:
+
 npm install express mongoose dotenv cors bcryptjs jsonwebtoken
 
-System monitoring
+System monitoring:
+
 npm install systeminformation node-schedule
 
 **Create `backend/.env` file:**
@@ -37,11 +40,14 @@ Navigate back to root, then set up frontend:
 
 cd ..
 
-Create React app (if not already created)
+Create React app (if not already created):
+
 npx create-react-app frontend
+
 cd frontend
 
-UI and visualization libraries
+UI and visualization libraries:
+
 npm install axios recharts
 
 Tailwind CSS
