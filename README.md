@@ -1,11 +1,8 @@
 # Navigate to backend directory
 npm init -y
-
-# Core dependencies
+Core dependencies
 npm install express mongoose dotenv cors bcryptjs jsonwebtoken
-
-# System monitoring
+System monitoring
 npm install systeminformation node-schedule
-
-# Development dependencies
+Development dependencies
 npm install --save-dev nodemon
